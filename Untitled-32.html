@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Giriş Yap Formu</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Giriş Yap</h2>
+            <form action="/" method="post" target="_blank" onsubmit="girisYap()">
+                <div class="inputs">
+                    <input type="email" placeholder="E-postanızı Girin" id="email" required>
+                </div>
+                <div class="inputs">
+                    <input type="password" placeholder="Şifrenizi Girin" id="password" required minlength="8" maxlength="20">
+                </div>
+                <div class="sub">
+                    <input type="submit" value="Giriş Yap">
+                </div>
+                <div class="link">
+                    Sayfamızda yeni misiniz => <br>
+                    <a href="Untitled-31.html">Kayıt Ol</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="loginRegister.js"></script>
+</body>
+</html>
